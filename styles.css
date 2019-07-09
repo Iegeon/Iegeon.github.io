@@ -1,0 +1,42 @@
+.turd {
+    color:rgb(164, 186, 255);
+    font-family:Georgia;
+    font-size: 3em;
+    font-weight: normal;
+    font-style: oblique;
+}
+.yruyded {
+    color:rgb(255, 255, 255);
+    font-family:Georgia;
+    margin-block-start: 2em;
+    font-size: 1.5em
+}
+.verw {
+    width: 70%;
+}
+.ver {
+    width: 100%;
+}
+.bj {
+    background-color: rgb(115, 140, 252);
+    color: white;
+    font-family: Georgia;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+.c {
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+.aj:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+body {
+    background-image: url("WoWScrnShot_091618_133508.jpg");
+}
