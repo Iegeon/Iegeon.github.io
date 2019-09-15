@@ -23,3 +23,9 @@ function hg() {
     }
 }
 
+function türdlich() {
+    var a = parseInt(document.getElementById("aaa").value);
+    var b = parseInt(document.getElementById("bbb").value);
+    var c = a+b;
+    document.getElementById("ccc").value = c;
+}

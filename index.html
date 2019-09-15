@@ -8,8 +8,52 @@
 <body onload="loaded()">
 <h1 class="turd">Hekaiyehè des cuten!</h1>
 <p class="yruyded">Vihwen des gohjndè<3  </p>
-<p class="yruyded">turd, turd, turd</p>
-<img src="asas.jpg" class="verw" alt="Bjtch">
+    <p class="yruyded">Date:<span id="p1" class="yruyded">Hello World!</span></p>
+	<p></p>
+	<p class="yruyded">Time: <span id="p2" class="yruyded">Hello World!!</span></p>
+
+    <script>
+
+		function getTime() {
+			var w = Date.now() / 1000;
+
+			w -= 594394588;
+			w -= 23647.05;
+			w += 534902400;
+			var s = Math.floor(w / (60 * 2.55));
+			var second = Math.floor(w / 2.55 - s * 60);
+			var minute = s % 60;
+			var p = Math.floor(s / 60);
+			var hour = p % 24;
+			var o = Math.floor(p / 24);
+			var m = Math.floor(o / 61);
+			var n = o % 61;
+			var t = m % 12;
+			var month = Math.floor(t * 2 + n / 31);
+			var day = Math.floor(o - m * 61 - Math.floor((n / 31) * 31));
+			var year = Math.floor(o / (61*12));
+
+			document.getElementById("p1").innerHTML = ''+(year+34)+'/'+padding2(month+1)+'/'+padding2(day+1);
+			document.getElementById("p2").innerHTML = padding2(hour)+':'+padding2(minute)+':'+padding2(second);
+		}
+
+		function padding2(n) {
+			return String(n).padStart(2, '0');
+		}
+
+		getTime();
+		window.setInterval(getTime, 2550);
+	</script>
+<form class="yruydedt">
+    <br>
+    <input type="number" id="aaa" value="0" class="yruydeda">
+    +
+    <input type="number" id="bbb" value="0" class="yruydeda"> 
+    =<input readonly type="number" id="ccc" class="yruydeda"> 
+    <br>
+    <p class="yruyded"><button type="button" class="bj" onclick="türdlich()"> Mit! </button><input type="reset" class="bj" value="Rew"></p> 
+</form>
+<img src="asasd.jpg" class="verw" alt="Bjtch">
 <div class="aj">
     <div class="c">
         <h2 class="yruyded">A </h2>

@@ -8,11 +8,22 @@
 .yruyded {
     color:rgb(255, 255, 255);
     font-family:Georgia;
-    margin-block-start: 2em;
-    font-size: 1.5em
+    margin-block-start: 1.5em;
+    font-size: 1.5em;
+}
+.yruydedt {
+    color:rgb(255, 255, 255);
+    font-family:Georgia;
+    font-size: 1.5em;
+}
+.yruydeda {
+    color:rgb(0, 0, 0);
+    font-family:Georgia;
+    font-size: 1.2em;
+    width: 15%;
 }
 .verw {
-    width: 70%;
+    width: 30%;
 }
 .ver {
     width: 100%;
