@@ -30,7 +30,7 @@
 			var n = o % 61;
 			var t = m % 12;
 			var month = Math.floor(t * 2 + n / 31);
-			var day = Math.floor(o - m * 61 - Math.floor((n / 31) * 31));
+			var day = Math.floor(o - m * 61 - Math.floor(n / 31) * 31);
 			var year = Math.floor(o / (61*12));
 
 			document.getElementById("p1").innerHTML = ''+(year+34)+'/'+padding2(month+1)+'/'+padding2(day+1);
